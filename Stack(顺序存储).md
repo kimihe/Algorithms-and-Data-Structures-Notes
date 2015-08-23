@@ -15,7 +15,6 @@
 	    }
 	}
 
-
 **分析：**
 **1.void Push(ElementType *S, int top, ElementType item)
 Push方法形参int top是值传递，在方法内对top修改的影响只对方法内top变量有效，方法体之外的top变量没有变化。如果要获取当前栈顶元素的位置，那么只能通过过滤条件值来遍历栈内所有元素来获取当前栈顶元素的索引位置了。
